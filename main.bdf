@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 456 296 632 312)
+	(rect 624 296 800 312)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "pin_name1" (rect 90 0 143 12)(font "Arial" ))
 	(pt 0 8)
@@ -73,11 +73,43 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 120 64))
 	)
 )
+(symbol
+	(rect 448 272 600 352)
+	(text "divisor" (rect 5 0 38 12)(font "Arial" ))
+	(text "inst1" (rect 8 64 31 76)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "clk_in" (rect 0 0 28 12)(font "Arial" ))
+		(text "clk_in" (rect 21 27 49 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 152 32)
+		(output)
+		(text "clk_out" (rect 0 0 35 12)(font "Arial" ))
+		(text "clk_out" (rect 102 27 137 39)(font "Arial" ))
+		(line (pt 152 32)(pt 136 32))
+	)
+	(parameter
+		"N"
+		"25"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(drawing
+		(rectangle (rect 16 16 136 64))
+	)
+	(annotation_block (parameter)(rect 448 224 632 256))
+)
 (connector
 	(pt 280 304)
 	(pt 296 304)
 )
 (connector
 	(pt 432 304)
-	(pt 456 304)
+	(pt 448 304)
+)
+(connector
+	(pt 600 304)
+	(pt 624 304)
 )
