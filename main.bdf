@@ -117,7 +117,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 624 136 800 152)
+	(rect 824 184 1000 200)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "sen[9..0]" (rect 90 0 133 12)(font "Arial" ))
 	(pt 0 8)
@@ -179,7 +179,7 @@ applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 136 64))
 	)
-	(annotation_block (parameter)(rect 448 224 632 256))
+	(annotation_block (parameter)(rect 432 360 616 392))
 )
 (symbol
 	(rect 648 272 800 384)
@@ -249,7 +249,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 456 112 600 192)
+	(rect 656 160 800 240)
 	(text "senoide" (rect 5 0 42 12)(font "Arial" ))
 	(text "inst5" (rect 8 64 31 76)(font "Arial" ))
 	(port
@@ -278,7 +278,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 416 176 448 208)
+	(rect 616 224 648 256)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 21 26 33)(font "Arial" )(invisible))
 	(port
@@ -302,10 +302,6 @@ applicable agreement for further details.
 	(pt 816 304)
 	(pt 800 304)
 	(bus)
-)
-(connector
-	(pt 600 304)
-	(pt 648 304)
 )
 (connector
 	(pt 632 320)
@@ -339,28 +335,36 @@ applicable agreement for further details.
 	(pt 448 304)
 )
 (connector
-	(pt 400 144)
-	(pt 400 232)
-)
-(connector
 	(pt 400 232)
 	(pt 400 304)
 )
 (connector
-	(pt 400 144)
-	(pt 456 144)
+	(pt 632 224)
+	(pt 632 208)
 )
 (connector
-	(pt 432 176)
-	(pt 432 160)
+	(pt 632 208)
+	(pt 656 208)
 )
 (connector
-	(pt 432 160)
-	(pt 456 160)
-)
-(connector
-	(pt 600 144)
-	(pt 624 144)
+	(pt 800 192)
+	(pt 824 192)
 	(bus)
 )
-(junction (pt 400 232))
+(connector
+	(pt 656 192)
+	(pt 608 192)
+)
+(connector
+	(pt 608 192)
+	(pt 608 304)
+)
+(connector
+	(pt 600 304)
+	(pt 608 304)
+)
+(connector
+	(pt 608 304)
+	(pt 648 304)
+)
+(junction (pt 608 304))
