@@ -1,0 +1,25 @@
+# Pastas de compilação e banco de dados do Quartus
+db/
+incremental_db/
+output_files/
+simulation/
+greybox_tmp/
+
+# Arquivos de relatórios, logs e temporários
+*.rpt
+*.summary
+*.smsg
+*.qdf
+*.done
+*.pin
+*.jdi
+*.sld
+*.bsf
+*.dpf
+
+# Configurações de workspace do usuário (janelas abertas, etc.)
+*.qws
+
+# Arquivos de backup do próprio Quartus
+*.bak
+*~
