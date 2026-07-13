@@ -29,7 +29,7 @@
 --
 -- EXTRAS POSSÍVEIS:
 --
--- Existe uma maneiro de obtermos exatamente a frequência desejada, porém perdendo a resolução da portadora minimamente.
+-- Existe uma maneira de obtermos exatamente a frequência desejada, porém perdendo a resolução da portadora minimamente.
 -- Vamos imaginar que nossa resolução não seja de 255, mas sim de 249. Nesse caso teriamos 500 pulsos de contagem, logo:
 --
 -- f_port = f_pwm x pulsos
