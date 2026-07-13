@@ -37,7 +37,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 248 216 416 232)
+	(rect 248 224 416 240)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "clock_teste" (rect 5 0 61 12)(font "Arial" ))
 	(pt 168 8)
@@ -220,7 +220,7 @@ applicable agreement for further details.
 	(output)
 	(rect 416 184 592 200)
 	(text "OUTPUT" (rect 137 0 175 10)(font "Arial" (font_size 6)))
-	(text "clk_10MHz" (rect 5 0 59 12)(font "Arial" ))
+	(text "clk_10MHz" (rect 5 0 58 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 176 8)(pt 124 8))
@@ -575,14 +575,6 @@ applicable agreement for further details.
 	(pt 656 192)
 )
 (connector
-	(pt 416 224)
-	(pt 432 224)
-)
-(connector
-	(pt 432 304)
-	(pt 432 376)
-)
-(connector
 	(pt 1176 272)
 	(pt 1192 272)
 )
@@ -645,6 +637,10 @@ applicable agreement for further details.
 (connector
 	(pt 608 192)
 	(pt 608 304)
+)
+(connector
+	(pt 432 304)
+	(pt 432 376)
 )
 (connector
 	(pt 416 304)
